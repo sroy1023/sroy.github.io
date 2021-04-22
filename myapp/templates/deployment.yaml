@@ -27,7 +27,7 @@ spec:
         - name: mynginx
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
-          image: mynginx2:local
+          image: mynginx:local
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http

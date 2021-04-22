@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  mygen:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-04-22T23:42:50.465752563Z"
+    description: A Helm chart for Kubernetes
+    digest: 5fa7b390e84c2131b07e8c92ef93ea88bb9dddd6b53a6d02417a526030025e8e
+    name: mygen
+    urls:
+    - mygen-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-04-22T23:42:50.464958899Z"

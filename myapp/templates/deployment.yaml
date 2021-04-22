@@ -24,10 +24,10 @@ spec:
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
-        - name: generic_api
+        - name: myng
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
-          image: generic_api:local
+          image: myngnix:local
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http

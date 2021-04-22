@@ -3,11 +3,11 @@ entries:
   mygen:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-22T23:42:50.465752563Z"
+    created: "2021-04-22T23:46:24.45372095Z"
     description: A Helm chart for Kubernetes
-    digest: 5fa7b390e84c2131b07e8c92ef93ea88bb9dddd6b53a6d02417a526030025e8e
+    digest: 28a6204f9f3e9be028d77d513b147a5884f902847279b1544575ebb965d6f739
     name: mygen
     urls:
     - mygen-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-22T23:42:50.464958899Z"
+generated: "2021-04-22T23:46:24.452893822Z"

@@ -27,7 +27,7 @@ spec:
         - name: generic
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
-          image: generic-api:local
+          image: generic_api:local
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http

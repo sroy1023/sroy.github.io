@@ -24,10 +24,10 @@ spec:
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
-        - name: mygen
+        - name: generic
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
-          image: kubernetes-fastapi:1.0.0
+          image: generic-api:local
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http

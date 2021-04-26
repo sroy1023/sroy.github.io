@@ -27,7 +27,7 @@ spec:
         - name: mygen
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
-          image: generic_api:local
+          image: kubernetes-fastapi:1.0.0
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http

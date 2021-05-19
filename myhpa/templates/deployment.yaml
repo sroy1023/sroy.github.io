@@ -25,7 +25,7 @@ spec:
         - name: hpa-api
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
-          image: hpa-fastapi:latest
+          image: hpa_fastapi:latest
           imagePullPolicy: Always
           ports:
             - name: http

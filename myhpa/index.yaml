@@ -3,11 +3,11 @@ entries:
   myhpa:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-05-19T12:27:19.274586389Z"
+    created: "2021-05-19T13:42:29.275088851Z"
     description: A Helm chart for Kubernetes
-    digest: 93bb5bc05fd36227ea0d4e1a19ab1d46e2b8d818472e3bb71b96dbfb94e69f7f
+    digest: 406a2d6c07a1f4b78cc3046a87d2c8c8a3f805df68dcd7cb85777580050ed778
     name: myhpa
     urls:
     - myhpa-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-19T12:27:19.274132058Z"
+generated: "2021-05-19T13:42:29.273052756Z"
